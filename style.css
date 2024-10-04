@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(36, 21, 21);
+    
+}
+
+
+.buscador{
+    margin-left: 100px;
+}
+
+.header{
+    padding: 20px;
+    margin-left: 0%;
+    color: black;
+    background-color:  #f2f2f2;
+    border-radius: 9px;
+}
+
+.act{
+    display: inline;
+    margin-right: 100px;
+}
+
+/*--------------------------------------------------- area de texto*/
+.area{
+    background-color:#f2f2f2;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 5px;
+    border-style:initial;
+}
+
+.texto p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:groove;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.texto {
+    width: 700px;
+    height: 650px;
+    overflow-y:auto;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*------------------------------------------------------------------Lista*/
+
+.areal li{
+    background-color: #f2f2f2;
+    border-style: inset;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------Imagen*/
+
+.imagen {
+    width: 100%;
+    overflow: auto;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+.ima {
+    float: right;
+    margin-left: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+.info {
+
+    font-size: 18px;
+}
+
+/*------------------------------------------------------------------multimedia*/
+.multi{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.multi iframe{
+    border-radius: 5px;
+}
+
+
+/*------------------------------------------------------------------Pie de pagina*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.contenido-pie {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.column {
+    width: 45%;
+    text-align: left;
+}
+.column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.column ul li {
+    margin-bottom: 5px;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+.hh1{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
